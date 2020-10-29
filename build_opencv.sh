@@ -13,7 +13,7 @@ if [[ $CPUS -gt 5 ]]; then
     # something with a ton of ram
     JOBS=$CPUS
 else
-    JOBS=1  # you can set this to 4 if you have a swap file
+    JOBS=4  # you can set this to 4 if you have a swap file
     # otherwise a Nano will choke towards the end of the build
 fi
 
